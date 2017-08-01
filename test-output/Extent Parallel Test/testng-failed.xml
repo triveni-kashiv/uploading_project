@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Extent Parallel Test]">
+  <test name="ExtentWithParallelClasses(failed)">
+    <classes>
+      <class name="Extent_Library.TestClassExtent">
+        <methods>
+          <include name="TestClass"/>
+          <include name="AfterMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Extent_Library.TestClassExtent -->
+      <class name="Extent_Library.GoogleSearch">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Extent_Library.GoogleSearch -->
+      <class name="Extent_Library.Test2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Extent_Library.Test2 -->
+    </classes>
+  </test> <!-- ExtentWithParallelClasses(failed) -->
+</suite> <!-- Failed suite [Extent Parallel Test] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Extent Parallel Test">
+    <test name="ExtentWithParallelClasses">
+        <classes>
+            <class name="Extent_Library.TestClassExtent" />
+            <class name="Extent_Library.Test2" />
+            <class name = "Extent_Library.GoogleSearch"/>
+        </classes>
+    </test>
+</suite>
